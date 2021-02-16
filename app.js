@@ -52,7 +52,7 @@ async function start () {
                 useCreateIndex: true
             }
         )
-        app.listen(PORT, () => console.log('[+] Listening has bin started on port' + PORT))
+        app.listen(PORT, () => console.log('[+] Listening has bin started on port ' + PORT))
     } catch (error) {
         console.log('[-] Server Error', error.message)
         process.exit(1)
